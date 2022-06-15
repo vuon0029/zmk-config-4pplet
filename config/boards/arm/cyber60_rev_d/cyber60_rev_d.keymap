@@ -54,14 +54,14 @@
 // | BOOT |  F1 |  F2 |  F3 |  F4 |  F5 |  F6 |  F7 |  F8 |  F9 | F10 | F11 | F12 |INS | RST|
 // | TAB  |BTPRV|  UP |BTNXT| TOG0| TOG1| TOG2| BT3 | BT4 | PRNT| SLCKL | UP  | LOCK |  DEL |
 // | CAPS  |LEFT |DOWN |RIGHT|MUTE |  G  |  *  |  /  | HOME| PGUP| LEFT|RIGHT|none|  ENTER  |
-// | SHIFT |none|PRV|PLAYP|NEXT | VOLD| VOLU|  +  |  -  | END | PGDN| DOWN|    U_BRI   | FN |
+// | SHIFT |none|PRV|PLAYP|NEXT | VOLD| VOLU|  +  |  -  | END | PGDN| U_EFF|    U_BRI   | FN |
 // |  LCTL  |  LGUI  |  LWIN  |  RALT  | FN |     SPACE     |  RALT |  U_BRD | U_TG | U_EFF |
 // | Rotary | (<-- Rotary switch) ----------------------------------------------------------- 
 			bindings = <
 	&bootloader 	&kp F1		&kp F2 	 		&kp F3			&kp F4			&kp F5			&kp F6			&kp F7			&kp F8			&kp F9			&kp F10		&kp F11		&kp F12			&kp INS	&tog SETTINGS
 	&trans			&bt BT_PRV  &kp UP   		&bt BT_NXT		&trans			&trans			&trans			&trans			&trans			&trans			&kp SLCK	&kp UP		&kp C_AL_LOCK	&kp DEL
 	&kp CLCK 		&kp LEFT   	&kp DOWN		&kp RIGHT		&kp K_MUTE		&trans			&kp KP_ASTERISK	&kp KP_SLASH	&kp HOME		&kp PG_UP		&kp LEFT	&kp RIGHT	&trans		&trans
-	&trans 			&trans   	&kp C_PREV   	&kp C_PP	 	&kp C_NEXT 		&kp C_VOL_DN	&kp C_VOL_UP	&kp KP_PLUS		&kp KP_MINUS	&kp END			&kp PG_DN	&kp DOWN	&rgb_ug RGB_BRI 		&trans
+	&trans 			&trans   	&kp C_PREV   	&kp C_PP	 	&kp C_NEXT 		&kp C_VOL_DN	&kp C_VOL_UP	&kp KP_PLUS		&kp KP_MINUS	&kp END			&kp PG_DN	&rgb_ug RGB_EFF	&rgb_ug RGB_BRI 		&trans
 	&trans 			&trans   	&trans             				&trans			&trans			&trans  		&trans  		&rgb_ug RGB_BRD			&rgb_ug RGB_TOG			&rgb_ug RGB_EFF		
 	&kp C_PP
 			>;
