@@ -115,7 +115,6 @@ int buzzer_listener(const zmk_event_t *eh)
             play_sound_5(pwm);
             break;
         default:
-            play_sound_5(pwm);
             break;
     }
     return ZMK_EV_EVENT_BUBBLE;
